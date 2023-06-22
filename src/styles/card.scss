@@ -1,0 +1,95 @@
+.shopCard{
+    background-color: rgb(136, 177, 211);
+    max-width: 100%;
+    min-width: 500px;
+    height: 500px;
+    border-radius: 1em;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    .title{
+        font-size: 20px;
+    }
+    .toCart{
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        width: 100%;
+        span {
+            border-radius: 1.5em;
+            cursor: pointer;
+            padding: 15px 70px;
+            border: none;
+            background-color: aliceblue;
+            font-size: 20px;
+            i{
+
+                padding: 4px 10px;
+                background-color: rgb(100, 97, 97, 0.6);
+                margin-left: 5px;
+                border-radius: 100%;
+                text-align: center;
+            }
+        }
+        span:hover{     
+            background: rgb(187, 183, 183);
+        }
+    }
+    .img_card{
+        width: 100%;
+        img{
+            max-height: 300px;
+        }
+        img{
+            background-color: transparent;
+            max-width: 100%;
+            border-radius: 1em;
+        }
+    }
+}
+
+
+
+.StyledNavContainer{
+
+    .search{
+        margin-top: 10px;
+        width: 400px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        label{
+            border-top-right-radius: 1em;
+            border-bottom-right-radius: 1em;
+            cursor: pointer;
+            background-color: rgb(139, 115, 115);
+        }
+        label:hover{
+            background-color: rgb(134, 126, 126);
+            .search_icon{
+                transform: scale(1.2);
+            }
+        }
+        .search_icon{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 10px 25px;
+            transform: scale(1);
+        }
+        input{
+            border-top-left-radius: 1em;
+            border-bottom-left-radius: 1em;
+            background-color: white;
+            border: none;
+            outline: none;
+            padding: 10px 60px;
+        }
+    }
+}

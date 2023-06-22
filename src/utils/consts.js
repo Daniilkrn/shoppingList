@@ -1,0 +1,7 @@
+export const ADMIN_ROUTE = '/admin'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/register'
+export const SHOP_ROUTE = '/shop'
+export const CART_ROUTE = '/cart'
+export const CONTACTS_ROUTE = '/contacts'
+export const ADMINPANEL_ROUTE = '/adminProute'

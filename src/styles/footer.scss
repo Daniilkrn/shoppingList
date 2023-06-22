@@ -1,0 +1,25 @@
+footer{
+    padding: 14px 0px;
+    .title{
+        width: 100%;
+        text-align: left;
+    }
+    ul{
+        p{
+            color: rgb(48, 48, 146);
+        }
+        li{
+            margin: 10px 0px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            .icon{
+                margin-right: 10px;
+                display: flex;
+                align-items: center;
+            }
+        }
+        margin-top: 10px;
+        width: 100%;
+    }
+}

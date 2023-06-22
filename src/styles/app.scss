@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Arial";
+    font-weight: 500;
+}
+
+button {
+    border: none; 
+}
+
+.StyledMainContainer{
+    padding: 20px;
+    margin-top: 60px;
+    background-color: rgb(168, 160, 149);
+    border-radius: 1em;
+    margin-bottom: 60px;
+}
+
+.navSort{
+    position: relative;
+    padding: 14px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    .flagSort{
+        span{
+            cursor: pointer;
+            margin-left: 10px;
+            color: rgb(63, 62, 61);
+            border-bottom: 1.5px dashed peru;
+        }
+    }
+    .modalSort_container{
+        padding: 10px;
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        background-color: rgb(255, 255, 255);
+        div{
+            cursor: pointer;
+            margin: 8px 0px;
+        }
+        div:hover{
+            color: rgb(92, 92, 89);
+        }
+    }
+}
+
+.navPages{
+    padding: 14px 22px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    .page_num{
+        cursor: pointer;
+        background-color: aliceblue;
+        border-radius: 50%;
+        padding: 8px 12px;
+        margin-right: 15px;
+    }
+    .page_num.active{
+        
+    }
+}
